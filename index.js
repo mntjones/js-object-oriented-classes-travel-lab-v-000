@@ -28,7 +28,9 @@ class Route {
     const Xstart = eastWest.indexOf(this.beginningLocation.horizontal);
     const Xend = eastWest.indexOf(this.endingLocation.horizontal);
     
-    return (Math.abs(Xend-Xstart)) + (Math.abs())
+    const Yblocks = this.endingLocation.vertical - this.beginningLocation.vertical;
+    
+    return (Math.abs(Xend-Xstart)) + (Math.abs(Yblocks));
   }
   
   estimatedTime(peak=false) {
