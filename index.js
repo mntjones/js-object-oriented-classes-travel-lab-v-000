@@ -21,7 +21,7 @@ class Route {
     this.endingLocation = endingLocation;
   }
   
-  blocksTravelled(beginningLocation, endingLocation) {
+  blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
     
@@ -30,7 +30,7 @@ class Route {
   estimatedTime(peak=false) {
 
     if (peak === true) {
-      return this
+      return this.blocksTravelled()
     }
   }
 }
