@@ -9,8 +9,8 @@ class Driver {
   yearsExperienceFromBeginningOf (year) {
     
     const yr = new Date(`Jan 1, ${year}`) //sets year with beginning
-    const elapsed = 
-    return (yr.getTime() -this.startDate.getTime())/(31536000000);//returns in miliseconds
+    const elapsed = (yr.getTime() -this.startDate.getTime())
+    return /(31536000000);//returns in miliseconds
   }
 }
 
