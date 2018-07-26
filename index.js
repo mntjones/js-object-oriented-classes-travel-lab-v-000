@@ -28,9 +28,9 @@ class Route {
   }
   
   estimatedTime(peak=false) {
-    const blocks = blocksTravelled
+
     if (peak === true) {
-      return 
+      return this
     }
   }
 }
