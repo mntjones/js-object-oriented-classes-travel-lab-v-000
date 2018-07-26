@@ -24,7 +24,9 @@ class Route {
   blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
+    // gives index locations in array for beginning and end points
     const Xstart = eastWest.indexOf(this.beginningLocation.horizontal);
+    const Xend = eastWest.indexOf(this.endingLocation.horizontal);
     
     
   }
