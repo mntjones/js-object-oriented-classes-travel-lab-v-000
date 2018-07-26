@@ -8,7 +8,7 @@ class Driver {
   
   yearsExperienceFromBeginningOf (year) {
     
-    const yr = new Date(year, 0, 1) //sets year with beginning
+    const yr = new Date(year) //sets year with beginning
     return yr.getFullYear() - this.startDate.getFullYear()
   }
 }
