@@ -9,7 +9,7 @@ class Driver {
   yearsExperienceFromBeginningOf (year) {
     
     const yr = new Date(`Jan 1, ${year}`) //sets year with beginning
-    return (yr.getTime() -this.startDate.getTime())/
+    return (yr.getTime() -this.startDate.getTime())/(31536000000);//returns in miliseconds
   }
 }
 
