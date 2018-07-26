@@ -24,6 +24,8 @@ class Route {
   blocksTravelled() {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     
+    const Xdirection = 
+    
     
   }
   
@@ -33,7 +35,7 @@ class Route {
       return (this.blocksTravelled()/2)
     }
     else {
-      return(this.blocksTravelled()/3);
+      return (this.blocksTravelled()/3);
     }
   }
 }
